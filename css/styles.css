@@ -1,0 +1,11 @@
+body {
+    margin: 200px;
+}
+
+#working {
+    color: green;
+}
+
+.error {
+    color: red;
+}
