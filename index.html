@@ -9,6 +9,9 @@
             </span>
         </div>
         <script type="text/javascript" src="dist/Foo.js"></script>
-        <script type="text/javascript" src="dist/scripts.js"></script>
+        <script type="text/javascript">
+            // Foo should be bound to the window via UMD
+            new Foo();
+        </script>
     </body>
 </html>
